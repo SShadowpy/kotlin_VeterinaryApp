@@ -14,7 +14,7 @@ VetPy is an Android-based pet management application developed using Kotlin. The
 
 - Create and manage profiles for pets, including name, breed, age, and gender.
 
-![img]https://i.imgur.com/f25GTeQ.jpeg[/img]
+![Imgur](https://imgur.com/f25GTeQ)
 
 ### 🏥 Pet Care Services
 
