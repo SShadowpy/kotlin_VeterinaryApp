@@ -4,9 +4,6 @@
 
 VetPy is an Android-based pet management application developed using Kotlin. The application aims to simplify pet care by providing a centralized platform where users can manage their pet's health records, appointments, lost pet reports, and other essential services. VetPy offers a user-friendly interface with robust features designed to streamline pet care management.
 
-
-![WhatsApp Image 2024-10-25 at 12 59 13 PM](https://github.com/user-attachments/assets/e5d913f9-3b55-4a63-84ca-e0b5d7d59e3c)
-
 ---
 
 ## Features
@@ -14,36 +11,36 @@ VetPy is an Android-based pet management application developed using Kotlin. The
 🐶 Pet Profiles
 
 - Create and manage profiles for pets, including name, breed, age, and gender.
-
-![Imgur](https://imgur.com/f25GTeQ)
+  
+![petprofile](https://github.com/user-attachments/assets/9f15aa10-de23-4d3e-ba44-f75c23fb0198)
 
 ### 🏥 Pet Care Services
 
 - Select your pet category, or book a bath for your favorite animal.
+- 
+![services](https://github.com/user-attachments/assets/1a120fec-6382-4e53-bea1-29d5714fbedf)
 
-
-![Service Booking UI](https://imgur.com/aE01MlJ)
 
 ### 🔐 User Authentication
 
 - Secure login and registration system.
 - Social media login integration (Google, Facebook) for quick access.
+![userauth](https://github.com/user-attachments/assets/ce2a3743-51ba-4560-9da4-e7b486bab7e9)
 
-![User Authentication UI](https://imgur.com/a/knabaXo)
+
 
 ### 🛒 Pet Products Marketplace
 
 - Browse and purchase pet-related products such as food, toys, and accessories.
 - Secure checkout and order tracking system.
-
-![Pet Products UI](https://imgur.com/rsVXkXk)
+  
+![products](https://github.com/user-attachments/assets/a8bcc06c-aca1-460d-8e9d-535dc1df3d86)
 
 ### 👤 User Profile
 
 - Display personal user information, including name, location, number, email.
-- Update account settings and security preferences.
-
-![User Profile UI](https://imgur.com/8vLuuVe)
+  
+![userprofile](https://github.com/user-attachments/assets/c5bc8d67-88ce-443a-b252-bd4b868dc912)
 
 ---
 
