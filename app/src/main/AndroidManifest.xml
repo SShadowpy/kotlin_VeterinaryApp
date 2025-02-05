@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Prueba"
+        tools:targetApi="31">
+        <activity
+            android:name=".LostPetProfile"
+            android:exported="false"
+            android:label="Lost Pet Profile"
+            android:parentActivityName=".LostPets"/>
+        <activity
+            android:name=".BathCareServices"
+            android:exported="false"
+            android:label="Bath and Care"
+            android:parentActivityName=".Services"/>
+        <activity
+            android:name=".HamsterServices"
+            android:exported="false"
+            android:label="Hamster Products"
+            android:parentActivityName=".Services" />
+        <activity
+            android:name=".CatServices"
+            android:exported="false"
+            android:label="Cat Products"
+            android:parentActivityName=".Services" />
+        <activity
+            android:name=".DogServices"
+            android:exported="false"
+            android:label="Dog Products"
+            android:parentActivityName=".Services" />
+        <activity
+            android:name=".Services"
+            android:exported="false"
+            android:label="Services"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".LostPets"
+            android:exported="false"
+            android:label="Lost Pets"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false"
+            android:label="User Profile"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".PetProfile"
+            android:exported="false"
+            android:label="Pet Profile"
+            android:parentActivityName=".Pets" />
+        <activity
+            android:name=".PetInfo"
+            android:exported="false"
+            android:label="Add Pet"
+            android:parentActivityName=".Pets" />
+        <activity
+            android:name=".Pets"
+            android:exported="false"
+            android:label="Pets"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

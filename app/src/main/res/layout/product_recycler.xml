@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rvDogCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/materialPurple"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:layout_margin="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivDogRV"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:padding="8dp"/>
+
+            <ImageView
+                android:id="@+id/plusCart"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignEnd="@id/ivDogRV"
+                android:layout_alignBottom="@id/ivDogRV"
+                android:src="@drawable/plus"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/tvProductName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivDogRV"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <!-- New TextView -->
+            <TextView
+                android:id="@+id/tvNewTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvProductName"
+                android:layout_toRightOf="@id/ivDogRV"
+                android:text="NT$ "
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tvProductPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tvNewTextView"
+                android:layout_below="@id/tvProductName"
+                android:text="Price"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tvProductDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvProductPrice"
+                android:layout_toRightOf="@id/ivDogRV"
+                android:text="Description"
+                android:textColor="@color/white"
+                android:layout_marginBottom="6dp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
