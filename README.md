@@ -4,6 +4,8 @@
 
 VetPy is an Android-based pet management application developed using Kotlin. The application aims to simplify pet care by providing a centralized platform where users can manage their pet's health records, appointments, lost pet reports, and other essential services. VetPy offers a user-friendly interface with robust features designed to streamline pet care management.
 
+![home](https://github.com/user-attachments/assets/32600e7f-2af9-4913-9f62-55f32e962dfb)
+
 ---
 
 ## Features
